@@ -1,0 +1,12 @@
+<div class="container" *ngFor="let item of productDetails ">
+    <img src="{{item.productImage}}" alt="Image">
+    <div>
+        <div class="discount">
+            <p class="discountOff">{{item.discountOff}}% off</p>
+            <p class="deal"> On deal</p>
+        </div>
+        <div class="price">${{item.price}}</div>
+        <div class="discountPrice">List Price: <s>${{item.actualPrice}}</s></div>
+        <div class="content">{{item.content}}</div>
+    </div>
+</div>

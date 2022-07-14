@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(216, 215, 215);
+    width: 315px;
+    height: 400px;
+    padding: 10px;
+    justify-content: space-between;
+}
+.discount{
+   display: flex; 
+   column-gap: 10px;   
+   align-items: baseline;
+}
+img{
+    width: 200px;
+    height: auto;
+    display: block;
+    text-align: center;
+    margin: 30px auto;
+    
+
+}
+.container div div{
+    margin: 0 4px;
+    padding: 2px;
+    text-align: start;
+}
+.discountOff{
+    background-color: #cc0c39; 
+    color: whitesmoke;
+    padding: 5px;
+    font-size: 12px;
+}
+.deal{
+    color: #cc0c39;
+}
+.content{
+    font-size: 14px;
+    font-weight: 600;
+}
+.price{
+    font-size: 18px;
+    font-weight: 600;
+}
+.discountPrice{
+    font-size: 12px;
+}

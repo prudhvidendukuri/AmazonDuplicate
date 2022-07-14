@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    justify-content: start;
+    
+}
+.itemsLeftContent{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.mainHeading{
+    margin: 4px;
+    padding: 8px;
+    font-size: 24px;
+    font-weight: 600;
+}
